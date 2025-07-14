@@ -1,0 +1,46 @@
+input{
+      /* margin-left: 42%; */
+    border-radius: 9px;
+    height: 28px;
+    width:98%;
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.5);
+  text-align: center;
+  background-color: #FFFAF0;
+}
+input:hover{
+    transition-duration: 2s;
+    background-color: #000000;
+}
+button{
+    padding: 5px;
+    border-radius: 5px;
+    width:58px;
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.5);
+   font-size: 13px;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+.main{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 20%;
+    margin: auto;
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.5);
+
+}
+#num{
+  background-color:black;
+  color: whitesmoke;
+}
+#divide,#minus,#multiply,#numPlus,#numEqual{
+    background-color: #B2FFFF;
+}
+#clear{
+    background-color: #E52B50;
+}
+
+.div_1,.div_2,.div_3,.div_4,.div_0,.div_01{
+    display: flex;
+    justify-content: center;
+}
